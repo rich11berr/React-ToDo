@@ -1,4 +1,5 @@
 .add-list {
+    position: relative;
     &__popup {
         width: 235px;
         height: 150px;
@@ -7,9 +8,9 @@
         border-radius: 10px;
         padding: 18px;
         transition: 0.4s;
-        position: relative;
-        top: -25px;
-        left: -10px;
+        position: absolute;
+        top: -45px;
+        left: 211px;
         &-close-btn {
             position: absolute;
             right: -8px;
